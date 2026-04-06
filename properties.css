@@ -1,0 +1,14 @@
+p{
+    color: green;
+    text-indent: 500px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-transform: capitalize;
+    word-spacing: 4px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 5px red;
+    letter-spacing: 3px;
+}
