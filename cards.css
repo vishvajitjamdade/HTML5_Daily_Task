@@ -1,0 +1,30 @@
+.cards div{
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+img{
+    border: 0px solid black;
+    height: 200px;
+    width: 150px;
+    padding-left: 20px;
+    margin: 10px 0px;
+}
+
+p,h4{
+    text-align: center;
+}
+
+.cards{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}

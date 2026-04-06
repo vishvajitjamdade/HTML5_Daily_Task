@@ -12,3 +12,25 @@ h1{
     text-shadow: 10px 10px 5px red;
     letter-spacing: 3px;
 }
+
+/* font properties */
+#p1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/* Background Properties */
+section{
+    color: black;
+    height: 90vh;
+    width: 100%;
+    background-image:url("img1.avif"),url("img2.webp");
+    background-blend-mode: lighten;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
