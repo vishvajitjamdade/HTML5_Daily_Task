@@ -1,0 +1,41 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+article{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.div1{
+    margin-left: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2{
+    margin-right: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 20px;
+}
+
+a:hover{
+    color: aqua;
+    font-size: 22px;
+}

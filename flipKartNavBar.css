@@ -1,0 +1,89 @@
+.firstNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 95%;
+    padding: 0 20px;
+    border: 0px solid black;
+    margin: 0px 15px 0px 0px;
+}
+
+.logo{
+    display: flex;
+    gap: 12px;
+}
+
+.flipkart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    background-color: #FFE51F;
+    border-radius: 8px;
+}
+
+.f, .flip{
+    height: 20px;
+}
+
+.aeroplane{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.plane, .travel{
+    height: 20px;
+}
+
+.location p{
+    font-size: 14px;
+    margin: 0;
+}
+
+.location p a{
+    color: #1b76c0;
+    text-decoration: none;
+}
+
+.secondNav{
+    height: 40px;
+    width: 100%;
+    border: 0px solid black;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 700px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 240, 240);
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+select{
+    border: none;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
