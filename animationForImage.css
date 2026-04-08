@@ -1,0 +1,39 @@
+img{
+    height: 300px;
+    width: 500px;
+    animation: car 5s ease-out 2s infinite;
+}
+
+body{
+    overflow: hidden;
+}
+
+@keyframes car {
+    0%{
+        margin-left: 0%;
+        transform: scale(1);
+        opacity: 1;
+    }
+    20%{
+        transform: scale(0.8);
+        opacity: 0.8;
+    }
+    40%{
+        transform: scale(0.6);
+        opacity: 0.6;
+    }
+    60%{
+        transform: scale(0.4);
+        opacity: 0.4;
+    }
+    80%{
+        transform: scale(0.2);
+        opacity: 0.2;
+    }
+    100%{
+        margin-left: 100%;
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+

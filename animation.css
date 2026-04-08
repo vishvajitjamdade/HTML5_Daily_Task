@@ -1,0 +1,33 @@
+div{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(rgb(179,110,119), rgba(57,7,14,0.54));
+    animation: xyz 3s ease-out 5s infinite ;
+}
+
+@keyframes xyz {
+    0%{
+        background: linear-gradient(rgb(94, 13, 26),rgb(183, 183, 6));
+        border-radius: 30px;
+        transform: rotate(45deg) scale(0.4);
+        margin: 20px;
+    }
+    30%{
+        background: linear-gradient(rgb(15, 215, 45),rgb(15, 136, 197));
+        border-radius: 100px;
+        transform: rotate(90deg) scale(0.6);
+        margin: 40px;
+    }
+    60%{
+        background: linear-gradient(rgb(131, 90, 194),rgb(74, 132, 187));
+        border-radius: 200px;
+        transform: rotate(100deg) scale(0.8);
+        margin: 80px;
+    }
+    90%{
+        background: linear-gradient(rgb(119, 103, 25),rgb(133, 18, 66));
+        border-radius: 300px;
+        transform: rotate(180deg) scale(1);
+        margin: 100px;
+    }
+}
