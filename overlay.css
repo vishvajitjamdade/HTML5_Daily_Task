@@ -1,0 +1,23 @@
+img{
+    height: 400px;
+    width: 400px;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    border-style: dashed;
+}
+
+.over{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(rgb(238, 168, 37),rgb(101, 209, 101),rgb(209, 85, 85));
+    position: absolute;
+    top: 9px;
+    opacity: 0;
+}
+
+section:hover .over{
+    opacity: 0.6;
+}
