@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl37Ha8cXj2c-sdAN1bfoPl31dXDgypc55Kw&s"
+                    alt="" height="500px" width="100%">
+                <h1>Hello</h1>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="" height="500px" width="100%">
+                <h1>Hello</h1>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/digital-lavender-natural-landscape_23-2150538390.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="" height="500px" width="100%">
+                <h1>Hello</h1>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="" height="500px" width="100%">
+                <h1>Hello</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Alert -->
+    <div class="alert alert-danger alert-dismissible">
+        <b>
+            Its Harmful to Your Device
+        </b>
+
+        <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3">Div1</div>
+        <div class="col-sm-3">Div2</div>
+        <div class="col-sm-3">Div3</div>
+        <div class="col-sm-3">Div4</div>
+    </div>
+
+    <div class="btn-group">
+        <div class="btn btn-success">Click Me!</div>
+        <div class="btn btn-danger">Click Me!</div>
+        <div class="btn btn-primary">Click Me!</div>
+        <div class="btn btn-dark">Click Me!</div>
+    </div>
+
+    <br><br>
+
+    <table class="table table-bordered table-hover">
+        <tr class="table-primary">
+            <th scope="col">Cloumn</th>
+            <th scope="col">Cloumn</th>
+            <th scope="col">Cloumn</th>
+            <th scope="col">Cloumn</th>
+        </tr>
+        <tr class="table-success">
+            <td scope="row">table data</td>
+            <td class="table-danger">table data</td>
+            <td>table data</td>
+            <td>table data</td>
+        </tr>
+        <tr class="table-danger">
+            <td scope="row">table data</td>
+            <td>table data</td>
+            <td>table data</td>
+            <td>table data</td>
+        </tr>
+        <tr class="table-warning">
+            <td scope="row">table data</td>
+            <td>table data</td>
+            <td>table data</td>
+            <td>table data</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+
+
+    <div class="mb-4">
+        <label for="Name" class="form-label">Name : </label>
+        <input type="text" class="form-control-xxl">
+    </div>
+
+    <div class="mb-4">
+        <label for="Pass">Pass : </label>
+        <input type="text" class="form-control-xxl">
+    </div>
+
+    <button class="btn btn-primary">Submit</button>
+
+    <!-- Spinner -->
+    <div>
+        <div class="spinner-border text-muted"></div>
+        <div>Wating...</div>
+    </div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-grow text-danger"></div>
+
+    <!-- Image -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZnxM3CYQspAS82txkzdrfbAn2Fz_bQjaxw&s" alt="image"
+        class="rounded">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZnxM3CYQspAS82txkzdrfbAn2Fz_bQjaxw&s" alt="image"
+        class="img-thumbnail">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZnxM3CYQspAS82txkzdrfbAn2Fz_bQjaxw&s" alt="image"
+        class="img-fluid" width="100%" height="auto">
+
+    <!-- Progress Bar -->
+    <div class="progress">
+        <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" style="width: 40%;"></div>
+    </div>
+
+</body>
+
+</html>

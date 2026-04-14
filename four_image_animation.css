@@ -2,12 +2,14 @@ body{
     position: relative;
     height: 100vh;
     width: 100%;
+    background-color: rgb(226, 180, 187);
 }
 
 img{
     height: 100px;
     width: 130px;
     float: right;
+    
 }
 
 #tree{
@@ -15,6 +17,7 @@ img{
     height: 320px;
     width: 250px;
     margin-top: 50px;
+    animation: tree 5s ease-in-out 2s infinite;
 }
 
 #boy{
